@@ -138,7 +138,7 @@ function GlobeCanvas({ hospitals, onHover }) {
         r.scale.set(s, s, s);
       });
       renderer.render(scene, camera);
-      sceneRef.current.raf = requestAnimationFrame(animate);
+      const rafId = requestAnimationFrame(animate); sceneRef.current.raf = rafId;
     };
     animate();
 
