@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/dineshyaadavm/Desktop/ML Project/Healthcare_readmission/ml/mlruns/580316466097471847/5fa6c247d1f14462ba5a2c6a394bc3db/artifacts
+end_time: 1782411613764
+entry_point_name: ''
+experiment_id: '580316466097471847'
+lifecycle_stage: active
+run_id: 5fa6c247d1f14462ba5a2c6a394bc3db
+run_name: xgb_lgb_ensemble_v1
+run_uuid: 5fa6c247d1f14462ba5a2c6a394bc3db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1782411613743
+status: 3
+tags: []
+user_id: dineshyaadavm

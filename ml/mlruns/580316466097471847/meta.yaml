@@ -1,0 +1,6 @@
+artifact_location: file:///Users/dineshyaadavm/Desktop/ML Project/Healthcare_readmission/ml/mlruns/580316466097471847
+creation_time: 1782411088455
+experiment_id: '580316466097471847'
+last_update_time: 1782411088455
+lifecycle_stage: active
+name: readmission_risk
