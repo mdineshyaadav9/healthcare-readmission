@@ -1,0 +1,6 @@
+venv/
+*.joblib
+__pycache__/
+*.parquet
+ml/mlruns/
+node_modules/
