@@ -37,7 +37,7 @@ MODEL_DIR = BASE_DIR / "ml" / "models"
 MODEL_DIR.mkdir(parents=True, exist_ok=True)
 
 MLFLOW_DIR = BASE_DIR / "ml" / "mlruns"
-mlflow.set_tracking_uri(f"file://{MLFLOW_DIR}")
+mlflow.set_tracking_uri("mlruns")
 mlflow.set_experiment("readmission_risk")
 
 # ── Load & feature-engineer ──────────────────────────────────────────────────
@@ -184,7 +184,6 @@ with mlflow.start_run(run_name="xgb_lgb_ensemble_v1"):
         "n_patients": len(df),
         "positive_rate": float(y.mean()),
     })
-    mlflow.log_artifact(str(MODEL_DIR / "shap_feature_importance.csv"))
 
 # ── Serialize artifacts ─────────────────────────────────────────────────────────
 print("\nSaving model artifacts...")
